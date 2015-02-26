@@ -1,0 +1,123 @@
+/*reset*/
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+div,
+a,
+ul,
+li,
+img,
+form,
+input,
+submit {
+  margin: 0;
+  padding: 0;
+}
+/*Global*/
+
+body {
+  font-family: amblelight;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: big_johnregular;
+}
+
+hr {
+  width: 86px;
+  height: 0;
+  border: 1px solid #000;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.supporting {
+  height: 500px;
+}
+.btn {
+  display: inline-block;
+  font-family: amblebold;
+  text-decoration: none;
+  padding: 32px 100px;
+  font-size: 30px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+/*Header*/
+
+.header {
+  height: 900px;
+  background: url(images/BG.png);
+  background-size: cover;
+  color: #fff;
+}
+
+.menu {
+  width: 30px;
+  height: 24px;
+  background: url(images/menu_ic.png) no-repeat bottom;
+  padding-top: 60px;
+  cursor: pointer;
+}
+
+.header h1 {
+  padding-top: 235px;
+  font-size: 48px;
+}
+
+.header hr {
+  margin: 50px auto;
+  border-color: #fff;
+}
+
+.header p {
+  width: 628px;
+  margin: auto;
+  font-family: ambleregular;
+  line-height: 30px;
+}
+.header img {
+  margin-top: 280px;
+}
+
+/*Intro*/
+.intro h2 {
+  padding-top: 120px;
+}
+.intro hr {
+  margin: 70px auto;
+}
+.intro p {
+  width: 750px;
+  margin: auto;
+}
+
+/*pureCreativity*/
+.pureCreativity {
+  background: url(images/touchpad.png);
+  background-size: cover;
+}
+.pureCreativity .btn {
+  margin-top: 200px;
+}
+
+/*toHelp*/
+.toHelp {
+  background: url(images/bg-hand.png);
+  background-size: cover;
+}
+.toHelp .btn {
+  margin-top: 200px;
+}
