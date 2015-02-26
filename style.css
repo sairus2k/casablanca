@@ -46,6 +46,7 @@ hr {
 .supporting {
   height: 500px;
 }
+
 .btn {
   display: inline-block;
   font-family: amblebold;
@@ -88,36 +89,69 @@ hr {
   font-family: ambleregular;
   line-height: 30px;
 }
+
 .header img {
   margin-top: 280px;
 }
-
 /*Intro*/
+
 .intro h2 {
   padding-top: 120px;
 }
+
 .intro hr {
   margin: 70px auto;
 }
+
 .intro p {
   width: 750px;
   margin: auto;
 }
-
 /*pureCreativity*/
+
 .pureCreativity {
   background: url(images/touchpad.png);
   background-size: cover;
 }
+
 .pureCreativity .btn {
   margin-top: 200px;
 }
-
 /*toHelp*/
+
 .toHelp {
-  background: url(images/bg-hand.png);
+  background: url(images/handwriting.png);
   background-size: cover;
 }
+
 .toHelp .btn {
   margin-top: 200px;
+}
+/*clients*/
+
+.clients {
+  background-color: #f4f4f4;
+}
+
+.clients h2 {
+  padding-top: 120px;
+}
+
+.clients hr {
+  margin: 75px auto;
+}
+
+.clients img {
+  margin: 40px;
+  width: 140px;
+}
+/*video*/
+
+.video {
+  background: url(images/videopreview.png) no-repeat center;
+  background-size: cover;
+}
+.video img {
+  display: inline-block;
+  margin-top: 218px;
 }
