@@ -1,3 +1,14 @@
+/**clearfix **/
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
 /*reset*/
 
 html,
@@ -13,7 +24,8 @@ li,
 img,
 form,
 input,
-submit {
+submit,
+textarea {
   margin: 0;
   padding: 0;
 }
@@ -151,7 +163,126 @@ hr {
   background: url(images/videopreview.png) no-repeat center;
   background-size: cover;
 }
+
 .video img {
   display: inline-block;
   margin-top: 218px;
+}
+/*quoteNow*/
+
+.quoteNow {
+  background: url(images/mackeyboard.png);
+  background-size: cover;
+}
+
+.quoteNow .btn {
+  margin-top: 200px;
+}
+/*inTouch*/
+
+.inTouch h2 {
+  padding-top: 120px;
+}
+
+.inTouch hr {
+  margin: 70px auto;
+}
+
+.inTouch p {
+  width: 750px;
+  margin: auto;
+}
+/*contacts*/
+
+.contacts {
+  background: #f2f2f2;
+  background: url(images/bg-gradient.png), -moz-linear-gradient(left, #f2f2f2 0%, #f2f2f2 40%, #e4e4e4 40%, #e4e4e4 100%);
+  background: url(images/bg-gradient.png), -webkit-gradient(linear, left top, right top, color-stop(0%, #f2f2f2), color-stop(40%, #f2f2f2), color-stop(40%, #e4e4e4), color-stop(100%, #e4e4e4));
+  background: url(images/bg-gradient.png), -webkit-linear-gradient(left, #f2f2f2 0%, #f2f2f2 40%, #e4e4e4 40%, #e4e4e4 100%);
+  background: url(images/bg-gradient.png), -o-linear-gradient(left, #f2f2f2 0%, #f2f2f2 40%, #e4e4e4 40%, #e4e4e4 100%);
+  background: url(images/bg-gradient.png), -ms-linear-gradient(left, #f2f2f2 0%, #f2f2f2 40%, #e4e4e4 40%, #e4e4e4 100%);
+  background: url(images/bg-gradient.png), linear-gradient(to right, #f2f2f2 0%, #f2f2f2 40%, #e4e4e4 40%, #e4e4e4 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e4e4e4', GradientType=1);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.location {
+  width: 400px;
+  height: 500px;
+  float: left;
+}
+
+.location h2 {
+  margin-top: 120px;
+  margin-bottom: 35px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.location ul {
+  text-align: left;
+  list-style: none;
+  margin-left: 95px;
+  font-style: italic;
+  font-family: ambleregular;
+}
+
+.location li {
+  margin-bottom: 8px;
+}
+
+.sendMessage {
+  float: right;
+  width: 770px;
+  height: 500px;
+}
+/*form*/
+
+.sendMessage form {
+  margin-top: 80px;
+  margin-left: 60px;
+  width: 669px;
+  text-align: right;
+}
+
+.sendMessage input,
+.sendMessage textarea {
+  background: #e4e4e4;
+  border: none;
+  border-bottom: 2px solid #afafaf;
+  color: #676767;
+  font-family: ambleregular;
+  font-size: 18px;
+  font-style: italic;
+  outline: 0;
+  height: 30px;
+  padding-left: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sendMessage input {
+  width: 310px;
+}
+
+.sendMessage textarea {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.sendMessage button {
+  width: 177px;
+  height: 54px;
+  background-color: #e4e4e4;
+  border: 2px solid #222222;
+  color: #222222;
+  font-size: 24px;
+  font-family: amblebold;
+}
+
+#name {
+  margin-right: 43px;
 }
