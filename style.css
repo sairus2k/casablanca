@@ -319,4 +319,30 @@ hr {
 #name {
   margin-right: 43px;
 }
+/*footer*/
 
+.footer {
+  height: 360px;
+  background: #222;
+  padding-top: 100px;
+}
+
+.logo {
+  display: block;
+  height: 80px;
+  width: 380px;
+  margin: auto;
+  background: url(images/samir-logo.png);
+}
+
+.footer p {
+  color: #e4e4e4;
+  font-size: 16px;
+  font-family: ambleregular;
+  margin-top: 68px;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: #d87843;
+}
