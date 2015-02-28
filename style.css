@@ -285,9 +285,11 @@ hr {
   margin: auto;
   margin-bottom: 70px;
 }
+
 .team {
   padding-bottom: 80px;
 }
+
 .team div {
   width: 270px;
   height: 360px;
@@ -298,9 +300,11 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .team div:hover {
   opacity: 1;
 }
+
 .team div .worker {
   display: none
 }
@@ -343,15 +347,18 @@ hr {
 .hiring {
   border: 1px solid #222;
 }
+
 .hiring h3 {
   color: #222;
   width: 110px;
   margin: 90px auto 45px;
   font-size: 24px
 }
+
 .hiring hr {
   margin: 0 auto 50px;
 }
+
 .hiring a {
   color: #222;
   text-decoration: none;
@@ -370,6 +377,105 @@ hr {
 .video img {
   display: inline-block;
   margin-top: 218px;
+}
+/*chooseUs*/
+
+.chooseUs {
+  height: 960px;
+}
+
+.chooseUs h2 {
+  padding-top: 120px;
+}
+
+.chooseUs hr {
+  margin: 65px auto;
+}
+
+.chooseUs hr+p {
+  width: 742px;
+  margin: auto;
+}
+
+.banner {
+  position: relative;
+  overflow: auto;
+  margin-top: 80px;
+}
+
+.banner ul {
+  list-style: none;
+}
+
+.banner ul li {
+  float: left;
+}
+
+.banner li>div {
+  width: 340px;
+  height: 340px;
+  float: left;
+  margin-right: 75px;
+  padding-bottom: 75px;
+}
+
+.banner li>div:last-child {
+  margin-right: 0;
+}
+
+.banner div h3 {
+  padding: 40px 0 30px;
+  font-family: ambleregular;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.banner div p {
+  font-family: ambleregular;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.banner div div {
+  height: 150px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.iphone5c div {
+  background-image: url(images/iPhone-5c.png);
+}
+
+.ipadAir div {
+  background-image: url(images/iPad-Air.png);
+}
+
+.macbookPro div {
+  background-image: url(images/Macbook-Pro.png);
+}
+.dots {
+  position: absolute;
+  left: 0;
+  right: 35px;
+  bottom: -40px;
+  text-align: center;
+}
+
+.dots li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 0;
+  background-color: #d5d5d5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dots li.active {
+  background: #d87843;
+  opacity: 1;
 }
 /*quoteNow*/
 
