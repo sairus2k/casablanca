@@ -129,8 +129,9 @@ hr {
 /*pureCreativity*/
 
 .pureCreativity {
-  background: url(images/touchpad.png);
+  background: url(images/touchpad.jpg) center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .pureCreativity .btn {
@@ -257,8 +258,9 @@ hr {
 /*toHelp*/
 
 .toHelp {
-  background: url(images/handwriting.png);
+  background: url(images/handwriting.jpg) center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .toHelp .btn {
@@ -392,8 +394,9 @@ hr {
 /*video*/
 
 .video {
-  background: url(images/videopreview.png) no-repeat center;
+  background: url(images/iphone.jpg) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .video img {
@@ -503,8 +506,9 @@ hr {
 /*quoteNow*/
 
 .quoteNow {
-  background: url(images/mackeyboard.png);
+  background: url(images/mackeyboard.jpg) center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .quoteNow .btn {
